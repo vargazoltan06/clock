@@ -5,7 +5,6 @@ const display = document.querySelector('.display');
 
 const displayClock = () => { 
     const date = new Date()
-    console.log(date);
     let hours = date.getHours();
     let minutes = date.getMinutes();
     let seconds = date.getSeconds();
